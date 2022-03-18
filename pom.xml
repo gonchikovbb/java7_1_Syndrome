@@ -52,18 +52,19 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>check-456asf</id>
+                        <id>jacoco-check-qaz123</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
                         <configuration>
                             <rules>
                                 <rule>
+                                    <element>PACKAGE</element>
                                     <limits>
                                         <limit>
                                             <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.80%</minimum>
+                                            <minimum>0.9</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
